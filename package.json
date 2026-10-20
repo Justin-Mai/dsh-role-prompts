@@ -1,0 +1,46 @@
+{
+  "name": "dsh-role-prompts",
+  "version": "0.1.0",
+  "description": "DSH 插件：把「岗位角色」作为强制指令注入整个会话的 system prompt。输入框开头键入 - 弹出角色候选，选中后该角色在本会话每一轮都生效；角色在设置页增删改，保存为 ~/.dsh/dsh-role-prompts.md。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/basic.mjs && node test/fixes.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek",
+    "deepseek-harness",
+    "dsh-plugin",
+    "role",
+    "persona",
+    "prompt",
+    "岗位角色"
+  ],
+  "license": "MIT"
+}

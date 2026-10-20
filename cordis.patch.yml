@@ -1,0 +1,6 @@
+# dsh-role-prompts bundle patch.
+# Registers the node-side plugin entry; the client half is picked up
+# automatically from dsh.client in package.json by dsh-client-modules.
+- insert:
+    - id: dsh-role-prompts
+      name: dsh-role-prompts

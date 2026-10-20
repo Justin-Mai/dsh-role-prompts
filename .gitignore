@@ -1,0 +1,12 @@
+node_modules/
+npm-debug.log*
+*.log
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
+
+# 插件运行时产生的临时文件（角色文件与激活状态都在 ~/.dsh，不在仓库里）
+*.tmp-*
