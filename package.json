@@ -9,10 +9,20 @@
     "./client": "./client.js",
     "./package.json": "./package.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justin-Mai/dsh-role-prompts.git"
+  },
+  "homepage": "https://github.com/Justin-Mai/dsh-role-prompts#readme",
+  "bugs": {
+    "url": "https://github.com/Justin-Mai/dsh-role-prompts/issues"
+  },
+  "author": "Justin-Mai",
   "files": [
     "index.js",
     "client.js",
     "cordis.patch.yml",
+    "test",
     "README.md",
     "LICENSE"
   ],

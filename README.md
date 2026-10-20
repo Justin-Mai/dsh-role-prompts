@@ -11,13 +11,13 @@
 **方式一：用 DSH 自带 CLI（推荐）**
 
 ```bash
-dsh plugin add github:maizhenwen/dsh-role-prompts
+dsh plugin add github:Justin-Mai/dsh-role-prompts
 ```
 
 **方式二：从本地目录挂载**（改代码时用这个，装的是软链，改完重载插件即可生效）
 
 ```bash
-git clone https://github.com/maizhenwen/dsh-role-prompts.git
+git clone https://github.com/Justin-Mai/dsh-role-prompts.git
 dsh plugin add ./dsh-role-prompts
 ```
 
